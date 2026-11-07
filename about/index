@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0b0d0c">
+
+  <title>About Shaurya Mittal | PLAYYY Gaming Portfolio</title>
+  <meta name="description" content="Meet Shaurya Mittal, the creator behind PLAYYY. Explore the gaming interests, interactive ideas and digital projects collected in this gaming portfolio.">
+  <meta name="author" content="Shaurya Mittal">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <link rel="canonical" href="https://shaurya1233.github.io/PLAYYYY/about/">
+  <link rel="preload" as="image" href="../kkk.jpg" fetchpriority="high">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="PLAYYY">
+  <meta property="og:title" content="About Shaurya Mittal | PLAYYY">
+  <meta property="og:description" content="The person and ideas behind PLAYYY — a gaming portfolio for gaming interests, interactive ideas and digital projects.">
+  <meta property="og:url" content="https://shaurya1233.github.io/PLAYYYY/about/">
+  <meta property="og:image" content="https://shaurya1233.github.io/PLAYYYY/kkk.jpg">
+  <meta property="og:image:alt" content="Shaurya Mittal — PLAYYY gaming portfolio profile image">
+  <meta property="og:image:type" content="image/jpeg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About Shaurya Mittal | PLAYYY">
+  <meta name="twitter:description" content="Meet the creator behind PLAYYY and explore the ideas collected in this gaming portfolio.">
+  <meta name="twitter:image" content="https://shaurya1233.github.io/PLAYYYY/kkk.jpg">
+  <meta name="twitter:image:alt" content="Shaurya Mittal — PLAYYY gaming portfolio profile image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "name": "About Shaurya Mittal | PLAYYY",
+    "url": "https://shaurya1233.github.io/PLAYYYY/about/",
+    "description": "The about page for Shaurya Mittal and the PLAYYY gaming portfolio.",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Shaurya Mittal",
+      "image": "https://shaurya1233.github.io/PLAYYYY/kkk.jpg",
+      "description": "Gaming enthusiast and creator of the PLAYYY gaming portfolio.",
+      "knowsAbout": [
+        "Gaming",
+        "Interactive experiences",
+        "Web-based games",
+        "Game development"
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0d0c;
+      --surface: #111512;
+      --surface-2: #171d19;
+      --text: #f1f0e9;
+      --muted: #a4aaa1;
+      --soft: #777f76;
+      --accent: #d2a96c;
+      --accent-bright: #f0cb91;
+      --line: rgba(222, 204, 168, .17);
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      --max: 1160px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        radial-gradient(ellipse at 82% 10%, rgba(111, 128, 91, .13), transparent 34rem),
+        radial-gradient(ellipse at 6% 55%, rgba(178, 126, 65, .08), transparent 31rem),
+        var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    a { color: inherit; }
+    a:focus-visible {
+      outline: 2px solid var(--accent-bright);
+      outline-offset: 5px;
+    }
+
+    .wrap {
+      width: min(var(--max), calc(100% - 48px));
+      margin-inline: auto;
+    }
+
+    .topbar {
+      border-bottom: 1px solid var(--line);
+      background: rgba(11, 13, 12, .76);
+    }
+
+    .nav {
+      min-height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .28em;
+    }
+
+    .brand-mark {
+      width: 31px;
+      height: 31px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(210, 169, 108, .6);
+      color: var(--accent-bright);
+      font-family: var(--serif);
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0;
+      transform: rotate(-3deg);
+    }
+
+    .nav-link {
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: .14em;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: color .2s ease;
+    }
+
+    .nav-link:hover { color: var(--accent-bright); }
+
+    main { overflow: hidden; }
+
+    .hero {
+      min-height: 680px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(290px, .72fr);
+      align-items: center;
+      gap: clamp(48px, 8vw, 112px);
+      padding-block: 88px 104px;
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 27px;
+      color: var(--accent);
+      font: 11px/1.4 var(--mono);
+      letter-spacing: .22em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 34px;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    h1, h2, p { margin-top: 0; }
+
+    h1 {
+      max-width: 760px;
+      margin-bottom: 27px;
+      font: 400 clamp(3.6rem, 8.1vw, 7.4rem)/.98 var(--serif);
+      letter-spacing: -.065em;
+    }
+
+    h1 em {
+      color: var(--accent-bright);
+      font-weight: 400;
+    }
+
+    .intro {
+      max-width: 610px;
+      margin-bottom: 35px;
+      color: #c0c4bc;
+      font-size: clamp(16px, 1.55vw, 19px);
+      line-height: 1.85;
+    }
+
+    .intro strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 23px;
+    }
+
+    .button {
+      min-height: 49px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 20px;
+      border: 1px solid rgba(210, 169, 108, .62);
+      background: linear-gradient(135deg, rgba(210, 169, 108, .15), rgba(210, 169, 108, .04));
+      color: var(--accent-bright);
+      font: 11px var(--mono);
+      letter-spacing: .13em;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: background .2s ease, transform .2s ease, border-color .2s ease;
+    }
+
+    .button:hover {
+      background: rgba(210, 169, 108, .2);
+      border-color: var(--accent-bright);
+      transform: translateY(-2px);
+    }
+
+    .text-link {
+      color: var(--muted);
+      font: 11px var(--mono);
+      letter-spacing: .12em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .text-link:hover { color: var(--text); }
+
+    .portrait-column {
+      position: relative;
+      width: min(100%, 390px);
+      justify-self: end;
+    }
+
+    .portrait-frame {
+      position: relative;
+      padding: 12px;
+      border: 1px solid rgba(210, 169, 108, .32);
+      background: linear-gradient(145deg, rgba(210, 169, 108, .12), rgba(255,255,255,.015) 42%, rgba(110, 132, 102, .09));
+    }
+
+    .portrait-frame::before,
+    .portrait-frame::after {
+      position: absolute;
+      z-index: 2;
+      width: 38px;
+      height: 38px;
+      content: "";
+      pointer-events: none;
+    }
+
+    .portrait-frame::before {
+      top: -7px;
+      left: -7px;
+      border-top: 1px solid var(--accent-bright);
+      border-left: 1px solid var(--accent-bright);
+    }
+
+    .portrait-frame::after {
+      right: -7px;
+      bottom: -7px;
+      border-right: 1px solid var(--accent-bright);
+      border-bottom: 1px solid var(--accent-bright);
+    }
+
+    .portrait {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      object-position: center;
+      background: #1a201b;
+    }
+
+    .image-caption {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      padding: 14px 2px 0;
+      color: var(--soft);
+      font: 10px var(--mono);
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .image-caption span:last-child { color: var(--accent); }
+
+    .divider {
+      height: 1px;
+      background: var(--line);
+    }
+
+    .details {
+      display: grid;
+      grid-template-columns: .72fr 1.28fr;
+      gap: clamp(35px, 8vw, 115px);
+      padding-block: 76px 90px;
+    }
+
+    .section-label {
+      margin: 7px 0 0;
+      color: var(--accent);
+      font: 11px var(--mono);
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    .details h2 {
+      margin-bottom: 20px;
+      font: 400 clamp(2.1rem, 4.2vw, 3.65rem)/1.08 var(--serif);
+      letter-spacing: -.045em;
+    }
+
+    .details-copy {
+      max-width: 690px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.9;
+    }
+
+    .details-copy p:last-child { margin-bottom: 0; }
+
+    .focus-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1px;
+      margin-top: 30px;
+      border: 1px solid var(--line);
+      background: var(--line);
+    }
+
+    .focus-item {
+      min-height: 104px;
+      padding: 20px 22px;
+      background: var(--surface);
+    }
+
+    .focus-item small {
+      display: block;
+      margin-bottom: 9px;
+      color: var(--accent);
+      font: 10px var(--mono);
+      letter-spacing: .12em;
+    }
+
+    .focus-item span {
+      color: var(--text);
+      font: 17px var(--serif);
+    }
+
+    footer { border-top: 1px solid var(--line); }
+
+    .footer-inner {
+      min-height: 94px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      color: var(--soft);
+      font: 10px var(--mono);
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .footer-inner a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .footer-inner a:hover { color: var(--accent-bright); }
+
+    @media (max-width: 800px) {
+      .hero {
+        min-height: auto;
+        grid-template-columns: 1fr;
+        gap: 54px;
+        padding-block: 75px 78px;
+      }
+
+      .portrait-column {
+        width: min(78%, 390px);
+        justify-self: start;
+        margin-left: 8px;
+      }
+
+      .details {
+        grid-template-columns: 1fr;
+        gap: 22px;
+        padding-block: 60px 70px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .wrap { width: min(var(--max), calc(100% - 34px)); }
+      .nav { min-height: 70px; }
+
+      h1 { font-size: clamp(3.45rem, 17vw, 5.2rem); }
+
+      .hero { padding-block: 59px 66px; }
+
+      .portrait-column { width: min(91%, 360px); }
+
+      .focus-grid { grid-template-columns: 1fr; }
+
+      .footer-inner {
+        min-height: 84px;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 7px;
+        padding-block: 18px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+
+      *, *::before, *::after {
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="https://shaurya1233.github.io/PLAYYYY/" aria-label="PLAYYY home">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span>PLAYYY</span>
+      </a>
+
+      <a class="nav-link" href="https://shaurya1233.github.io/PLAYYYY/">
+        Back to home <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="wrap hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">The player behind PLAYYY</p>
+
+        <h1 id="page-title">More than<br>just <em>playing.</em></h1>
+
+        <p class="intro">
+          I’m <strong>Shaurya Mittal</strong>. PLAYYY is my gaming portfolio — a place to bring together the games I enjoy, interactive ideas I explore and digital projects I work on. It’s where curiosity about games meets the excitement of creating something of my own.
+        </p>
+
+        <div class="actions">
+          <a class="button" href="https://shaurya1233.github.io/PLAYYYY/">
+            Explore PLAYYY <span aria-hidden="true">&nbsp;↗</span>
+          </a>
+
+          <a class="text-link" href="#what-im-into">
+            A little more about me ↓
+          </a>
+        </div>
+      </div>
+
+      <figure class="portrait-column">
+        <div class="portrait-frame">
+          <img
+            class="portrait"
+            src="../kkk.jpg"
+            alt="Profile image of Shaurya Mittal, creator of the PLAYYY gaming portfolio"
+            title="Shaurya Mittal — PLAYYY"
+            loading="eager"
+            decoding="async"
+            fetchpriority="high">
+        </div>
+
+        <figcaption class="image-caption">
+          <span>PLAYYY / Profile</span>
+          <span>Shaurya Mittal</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <div class="wrap divider" role="presentation"></div>
+
+    <section class="wrap details" id="what-im-into" aria-labelledby="details-title">
+      <p class="section-label">01 / The perspective</p>
+
+      <div>
+        <h2 id="details-title">A space for games, ideas and making.</h2>
+
+        <div class="details-copy">
+          <p>
+            Gaming is not only about reaching the next level. It is also about the worlds people imagine, the systems that make play feel alive and the details that turn a simple idea into an experience worth remembering.
+          </p>
+
+          <p>
+            PLAYYY is a growing collection of that curiosity. This portfolio is intended to showcase my gaming interests, experiments and projects as they take shape — without pretending that unfinished ideas are completed releases.
+          </p>
+        </div>
+
+        <div class="focus-grid" aria-label="Areas of interest">
+          <div class="focus-item">
+            <small>01</small>
+            <span>Gaming & game worlds</span>
+          </div>
+
+          <div class="focus-item">
+            <small>02</small>
+            <span>Interactive experiences</span>
+          </div>
+
+          <div class="focus-item">
+            <small>03</small>
+            <span>Web-based games</span>
+          </div>
+
+          <div class="focus-item">
+            <small>04</small>
+            <span>Creative experiments</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <span>© <span id="year">2026</span> PLAYYY · Shaurya Mittal</span>
+
+      <a href="https://shaurya1233.github.io/PLAYYYY/">
+        Return to PLAYYY <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    // Keeps the copyright year current without relying on an external library.
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
